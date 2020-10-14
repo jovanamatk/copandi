@@ -6,6 +6,7 @@ import {Switch, Route, Redirect} from 'react-router-dom'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'react-bootstrap/dist/react-bootstrap'
+import './scss/custom.css'
 
 function App() {
   return (
