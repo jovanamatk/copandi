@@ -1,3 +1,54 @@
-$text-primary: red;
+.top-line {
+  background-color: #1c2026;
+  height: 200px;
+}
+
+.apartments-grid {
+  margin-top: 7%;
+  .apartment-box {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    margin-top: -15%;
+    z-index: 10;
+    padding: 3px;
+    position: relative;
+    width: 80%;
+    border-radius: 7px;
+
+    .apartment-description {
+      font-weight: 700;
+    }
+    .location-styling {
+      border-left: 1px solid black;
+      padding: 0 0 5px 5px;
+    }
+    .price {
+      font-weight: 600;
+      opacity: 1 !important;
+    }
+    .details {
+      border-top: 1px solid rgb(194, 194, 194);
+    }
+    .detail {
+      border-right: 1px solid rgb(194, 194, 194);
+    }
+    .detail:last-child {
+      border: none;
+    }
+  }
+}
+.opacity-03 {
+  opacity: 0.3;
+}
+.opacity-05 {
+  opacity: 0.5;
+}
+.font-small {
+  font-size: 13px;
+}
+
+.w-80 {
+  width: 80%;
+}
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
