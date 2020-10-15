@@ -17,7 +17,7 @@ function App() {
 
     <NavBar/>
     <Switch>
-      <Route path="/apartments" exact component={Apartments}/>
+      <Route path="/apartments" exact component={Apartments} />
       <Route path="/not-found" component={NotFound}/>
       <Route path="/" exact component={Main}/>
       <Redirect to="/not-found"/>

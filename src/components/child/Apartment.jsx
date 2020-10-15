@@ -3,9 +3,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 
 const Apartment = ({apartment}) => {
-    return ( <> 
 
-    {/* <img className="rounded w-100 img apartment-img" alt={apartment.description} src={apartment.image}/> */}
+return ( <> 
+
+
+    <img className="rounded w-100 img apartment-img" alt={apartment.description} src={apartment.image}/>
     <div className="row">
     <div className="mx-auto apartment-box p-3">
     <p className="apartment-description">{apartment.description}</p>

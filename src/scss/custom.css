@@ -3,6 +3,11 @@
   height: 200px;
 }
 
+.apartments-main-text {
+  padding-bottom: 90px;
+  text-align: center;
+}
+
 .apartments-grid {
   margin-top: -5%;
 }
@@ -11,6 +16,7 @@
   display: block;
   background-color: white;
   margin-bottom: 5%;
+  margin-top: -12%;
   z-index: 10;
   padding: 3px;
   position: relative;
@@ -40,6 +46,7 @@
 
 .apartments-grid .apartment-box .detail {
   border-right: 1px solid #c2c2c2;
+  padding: 7px 0 0 7px;
 }
 
 .apartments-grid .apartment-box .detail:last-child {
