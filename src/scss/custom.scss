@@ -51,4 +51,8 @@
   width: 80%;
 }
 
+$theme-colors: (
+  "dark": #262b33,
+);
+
 @import "../../node_modules/bootstrap/scss/bootstrap";
