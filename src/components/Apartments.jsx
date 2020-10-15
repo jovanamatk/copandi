@@ -7,7 +7,7 @@ const Apartments = () => {
 
     useEffect(() => {
         setApartments(apartmentsJSON);
-    }, []);
+   }, []);
     
 
     return ( 

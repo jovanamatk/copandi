@@ -2,7 +2,7 @@
 
 [{"_id": 0,
     "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque earum quam porro.",
-    "image": "/static/media/apartment.41d571ce.png",
+    "image": "../images/apartment.png",
     "location":"Sint-Rochusstraat 6, 2100 Derune",
     "sqmtr": "1.384 m²",
     "rooms": 14,

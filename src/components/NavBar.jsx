@@ -11,10 +11,10 @@ const NavBar = () => {
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav" className="navbar-items" >
     <Nav className="container-fluid">
-        <NavLink className="nav-link" to="/apartments">
+        <NavLink className="nav-link" exact to="/">
           Te koop
         </NavLink>
-        <NavLink className="nav-link" to="/te-huur">
+        <NavLink className="nav-link" to="/apartments">
           Te huur
         </NavLink>
         <NavLink className="nav-link" to="/nieuwbouw">
