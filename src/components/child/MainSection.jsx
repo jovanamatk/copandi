@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import duncanVanReck from '../../images/duncan-van-reck.png';
 import {faMapMarkerAlt, faEnvelope, faPhone, faBed, faBath, faToilet} from '@fortawesome/free-solid-svg-icons'
+import duncanVanReck from '../../images/duncan-van-reck.png';
 
 
 const MainSection = () => {

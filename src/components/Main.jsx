@@ -5,11 +5,9 @@ import Description from './child/Description';
 
 const Main = () => {
     return (<>
-    <div className="container-fluid">
     <MainSection/>
     <Gallery/>
     <Description/>
-    </div>
     </>);
 }
  

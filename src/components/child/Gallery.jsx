@@ -6,8 +6,8 @@ import fourth from '../../images/gallery/4.png';
 
 const Gallery = () => {
     return ( <>
-    <div className="w-lg-80 mx-auto gallery-section">
-    <div className="row">
+    <div className="row w-lg-80 mx-auto gallery-section">
+    <div className="row mx-auto">
 
     <div className="col-lg-3 img-container"><img src={first} alt="Gallery 1" className="img-gallery"/></div>
     <div className="col-lg-3 img-container"><img src={second} alt="Gallery 2" className="img-gallery"/></div>
@@ -16,7 +16,9 @@ const Gallery = () => {
     <div className="text-centered text-white"><h1>+35</h1></div>
 </div>
 
-    </div></div>
+    </div>
+
+    </div>
      </> );
 }
  

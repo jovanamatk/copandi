@@ -10,14 +10,13 @@ const Apartments = () => {
    }, []);
     
 
-    return ( 
-    <div className="container-fluid">
+    return ( <>
         <div className="row top-line">
+</div>
   <div className="row w-lg-80 mx-auto p-3 apartments-grid">
     {apartments.length <= 0 ? <h1 className="text-white">There are no apartments.</h1> : apartments.map(apartment=><div key={apartment._id} className="col-lg-4 col-md-6"><Apartment key={apartment._id} apartment={apartment}/></div>) }
-  </div>
 </div>
-</div>
+</>
      );
 }
  

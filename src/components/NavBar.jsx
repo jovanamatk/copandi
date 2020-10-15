@@ -5,7 +5,7 @@ import logo from '../images/logo.png'
 
 const NavBar = () => {
     return (    
-    <Navbar bg="dark" variant="dark" expand="xl">
+    <Navbar bg="dark" variant="dark" expand="xl" className="row">
         <Container>
     <Navbar.Brand className="navbar-brand ml-lg-5"><img src={logo} alt="Copandi" /></Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />

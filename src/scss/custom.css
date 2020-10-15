@@ -4,13 +4,12 @@
 }
 
 .apartments-grid {
-  margin-top: 7%;
+  margin-top: -5%;
 }
 
 .apartments-grid .apartment-box {
   display: block;
   background-color: white;
-  margin-top: -15%;
   margin-bottom: 5%;
   z-index: 10;
   padding: 3px;
@@ -49,6 +48,8 @@
 
 .main-section {
   background-image: url("../images/main-section-bgd.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 100%;
 }
 
@@ -131,6 +132,11 @@ a:visited {
   color: #fff !important;
 }
 
+.navbar-items .active,
+.navbar-items a:hover {
+  color: #83c056 !important;
+}
+
 .btn-main {
   padding: 5px 35px;
   color: #fff;
@@ -163,6 +169,39 @@ a:visited {
   background-color: #1c2026;
 }
 
+footer {
+  background-color: #262b33;
+}
+
+footer ul {
+  padding-left: 20px;
+}
+
+footer h5,
+footer ul > li span,
+footer a,
+footer a:visited,
+footer a:hover,
+footer a:active {
+  color: #7c828c !important;
+  font-size: 16px;
+}
+
+footer li,
+footer p {
+  color: #83c056;
+  font-weight: bolder;
+}
+
+.f-copyright {
+  background-color: #1c2026;
+  color: #7c828c;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 12px;
+}
+
 .opacity-03 {
   opacity: 0.3;
 }
@@ -175,9 +214,15 @@ a:visited {
   font-size: 13px;
 }
 
+@media only screen and (max-width: 768px) {
+  .apartments-grid {
+    margin-top: -25%;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .main-section {
-    padding: 200px 0 210px 0;
+    padding: 180px 0;
   }
   .gallery-section {
     margin-top: -120px;

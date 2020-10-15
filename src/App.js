@@ -13,6 +13,8 @@ import './scss/custom.css'
 function App() {
   return (
     <>
+    <div className="container-fluid">
+
     <NavBar/>
     <Switch>
       <Route path="/apartments" exact component={Apartments}/>
@@ -21,6 +23,7 @@ function App() {
       <Redirect to="/not-found"/>
     </Switch>
     <Footer/>
+    </div>
     </>
   );
 }
