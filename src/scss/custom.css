@@ -11,11 +11,14 @@
   display: block;
   background-color: white;
   margin-top: -15%;
+  margin-bottom: 5%;
   z-index: 10;
   padding: 3px;
   position: relative;
   width: 80%;
   border-radius: 7px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
 }
 
 .apartments-grid .apartment-box .apartment-description {
