@@ -50,10 +50,11 @@
   font-size: 13px;
 }
 
-.w-80 {
-  width: 80%;
+@media only screen and (min-width: 768px) {
+  .w-lg-80 {
+    width: 80%;
+  }
 }
-
 $theme-colors: (
   "dark": #262b33,
 );
