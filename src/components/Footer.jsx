@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="row pt-lg-5 pb-lg-5 ">
     <div className="row w-lg-50 pb-4 mx-auto justify-content-center">
         <div className="col-lg-2 pt-3 text-center"><img src={logo} alt="Copandi" /><h5>BE0677.970.513</h5></div>
-        <div className="col-lg-1"><p>COPANDI</p> 
+        <div className="col-lg-2"><p>COPANDI</p> 
         <ul>            
             <li><span>Blog</span></li>
             <li><span>Team</span></li>
@@ -24,7 +24,7 @@ const Footer = () => {
                 <li><span>Ik ben op zoek</span></li>
             </ul>
         </div>
-        <div className="col-lg-3">
+        <div className="col-lg-2">
             <p>ALGEMEEN</p>
             <ul>
                 <li><span>Algemene voorwaarden</span></li>
@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
         <div className="col-lg-1">
             <p>SOCIAL</p>
-            <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer"><img src={instagram} className="pr-1" alt="Instagram"/></a>
+            <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer"><img src={instagram}  alt="Instagram"/></a>
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><img src={facebook} alt="Facebook"/></a>
         </div>
         </div>
