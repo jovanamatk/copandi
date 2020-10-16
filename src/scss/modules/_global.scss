@@ -1,0 +1,38 @@
+a,
+a:hover,
+a:active,
+a:visited {
+  text-decoration: none !important;
+  color: #fff !important;
+}
+.navbar-items .active,
+.navbar-items a:hover {
+  color: #83c056 !important;
+}
+
+.nav-pills .nav-link {
+  border-radius: 0.25rem;
+  padding: 15px 30px;
+}
+
+.opacity-03 {
+  opacity: 0.3;
+}
+
+.opacity-05 {
+  opacity: 0.5;
+}
+
+.font-small {
+  font-size: 13px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1c2026 !important;
+}
+
+$theme-colors: (
+  "dark": #262b33,
+);

@@ -1,0 +1,27 @@
+.btn-main {
+  padding: 5px 35px;
+  color: #fff;
+  box-shadow: none;
+  border-radius: 18px;
+  border: none;
+  border: 1px solid white;
+  background-color: rgba(0, 0, 0, 0);
+}
+.btn-main:hover {
+  color: black;
+  background-color: white;
+}
+
+.btn-main-dark {
+  padding: 5px 35px;
+  color: #1c2026;
+  box-shadow: none;
+  border-radius: 18px;
+  border: none;
+  border: 1px solid #1c2026;
+  background-color: rgba(0, 0, 0, 0);
+}
+.btn-main-dark:hover {
+  color: white;
+  background-color: #1c2026;
+}

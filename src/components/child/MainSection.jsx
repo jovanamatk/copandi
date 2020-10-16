@@ -1,7 +1,10 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faMapMarkerAlt, faEnvelope, faPhone, faBed, faBath, faToilet} from '@fortawesome/free-solid-svg-icons'
+import {faMapMarkerAlt, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 import duncanVanReck from '../../images/duncan-van-reck.png';
+import icon1 from '../../images/elements/icon1.png';
+import icon2 from '../../images/elements/icon2.png';
+import icon3 from '../../images/elements/icon3.png';
 
 
 const MainSection = () => {
@@ -26,9 +29,9 @@ const MainSection = () => {
         </div>
     </div>
     <div className="pt-lg-5 mb-5 row w-lg-40">
-    <span className="col-lg-4"><FontAwesomeIcon icon={faBed} size="lg"  /> <span className="pl-lg-2">3 Slaapkamers</span></span>
-    <span className="col-lg-4"><FontAwesomeIcon icon={faBath} size="lg"  /> <span className="pl-lg-2">1 Badkamer</span></span>
-    <span className="col-lg-4"> <FontAwesomeIcon icon={faToilet} size="lg"  /> <span className="pl-lg-2">1 WC</span></span>
+    <span className="col-lg-4"><img src={icon1} alt="bed"/> <span className="pl-lg-2">3 Slaapkamers</span></span>
+    <span className="col-lg-4"><img src={icon2} alt="bath"/> <span className="pl-lg-2">1 Badkamer</span></span>
+    <span className="col-lg-4"><img src={icon3} alt="toilet"/> <span className="pl-lg-2">1 WC</span></span>
     </div>
 </div>   
  </div> );

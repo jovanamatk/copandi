@@ -1,0 +1,54 @@
+@media only screen and (max-width: 1024px) {
+  .contact-block {
+    a {
+      font-size: 13px;
+    }
+  }
+  .dark-section {
+    padding: 0 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .apartments-grid {
+    margin-top: -25%;
+  }
+  .dark-section {
+    padding: 0 10px;
+    h1 {
+      font-size: 1.9rem;
+    }
+    p {
+      font-size: 0.9rem;
+    }
+  }
+  .tabs-column {
+    margin: 0 !important;
+    max-width: 100%;
+    padding: 0 !important;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .main-section {
+    padding: 180px 0;
+  }
+  .gallery-section {
+    margin-top: -120px;
+  }
+
+  .w-lg-80 {
+    width: 80%;
+  }
+  .w-lg-40 {
+    width: 40%;
+  }
+  .w-lg-35 {
+    width: 35%;
+  }
+  .w-lg-75 {
+    width: 75%;
+  }
+  .font-large {
+    font-size: 60px;
+  }
+}

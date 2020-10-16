@@ -1,0 +1,13 @@
+.img-container {
+  margin: 0 !important;
+  padding: 0 !important;
+  .text-centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .img-gallery {
+    width: 100%;
+  }
+}

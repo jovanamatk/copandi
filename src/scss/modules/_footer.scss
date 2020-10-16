@@ -1,0 +1,27 @@
+footer {
+  background-color: #262b33;
+  ul {
+    padding-left: 20px;
+  }
+  h5,
+  ul > li span,
+  a,
+  a:visited,
+  a:hover,
+  a:active {
+    color: #7c828c !important;
+    font-size: 16px;
+  }
+  li,
+  p {
+    color: #83c056;
+    font-weight: bolder;
+  }
+}
+
+.f-copyright {
+  background-color: #1c2026;
+  color: #7c828c;
+  justify-content: center;
+  padding-top: 12px;
+}
