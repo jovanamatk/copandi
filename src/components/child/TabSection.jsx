@@ -4,7 +4,7 @@ import {Tab, Row, Col, Nav} from 'react-bootstrap'
 const TabSection = () => {
     return ( <Tab.Container id="left-tabs-example" defaultActiveKey="third" >
     <Row className="tabs-container">
-      <Col sm="3">
+      <Col lg="3">
         <Nav variant="pills" className="flex-column tabs-column">
             <h1>Tabs</h1>
           <Nav.Item>
@@ -24,7 +24,7 @@ const TabSection = () => {
           </Nav.Item>
         </Nav>
       </Col>
-      <Col sm="9" className="tabs-content">
+      <Col lg="9" className="tabs-content">
         <Tab.Content>
         <Tab.Pane eventKey="first">
         <p>Voor een uitgebreide beschrijving, download onze luxebrochure op www.copandi.be voor meer informatie.

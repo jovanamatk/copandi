@@ -177,12 +177,85 @@ a:visited {
   background-color: #1c2026;
   background-image: url(../images/elements/bgd-shape1.png);
   background-repeat: no-repeat;
+  color: #fff;
+
+  .documents-section {
+    .documents {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      p {
+        color: #fff;
+      }
+      img {
+        vertical-align: middle;
+        margin-left: 30px;
+        float: right;
+      }
+      .download-button {
+        border-radius: 25px;
+        word-break: break-all;
+        background-color: #262b33;
+        color: #fff;
+        border: none;
+        padding: 8px 10px 8px 20px;
+        margin-bottom: 15px;
+        text-align: start;
+        max-width: 80%;
+      }
+      .download-button:hover {
+        background-color: #fff;
+        color: #262b33;
+      }
+
+      .main-document {
+        background-color: #262b33;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border: 2px solid #83c056;
+        img {
+          width: 30%;
+          padding: 50% 0;
+          margin: 0;
+        }
+        .btn-main-document {
+          border-radius: 20px;
+          border: 1px solid white;
+          padding: 5px 25px;
+          color: #fff;
+          background-color: #262b33;
+          margin-bottom: 30px;
+        }
+        .btn-main-document:hover {
+          color: #262b33;
+          background-color: #fff;
+        }
+      }
+    }
+    p {
+      color: #737c8b;
+    }
+  }
+  .legal-section {
+    h1 {
+      margin: 40px 0;
+    }
+    p {
+      color: #737c8b;
+    }
+    p span {
+      color: #fff;
+    }
+  }
   p {
     font-size: 18px;
     color: #fff;
   }
   .tabs-container {
-    margin-top: 50px !important;
+    margin: 50px 0 0 0;
   }
   .tabs-column {
     text-align: start;
@@ -248,11 +321,28 @@ footer {
       font-size: 13px;
     }
   }
+  .dark-section {
+    padding: 0 10px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
   .apartments-grid {
     margin-top: -25%;
+  }
+  .dark-section {
+    padding: 0 10px;
+    h1 {
+      font-size: 1.9rem;
+    }
+    p {
+      font-size: 0.9rem;
+    }
+  }
+  .tabs-column {
+    margin: 0 !important;
+    max-width: 100%;
+    padding: 0 !important;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -271,6 +361,9 @@ footer {
   }
   .w-lg-35 {
     width: 35%;
+  }
+  .w-lg-75 {
+    width: 75%;
   }
   .font-large {
     font-size: 60px;
