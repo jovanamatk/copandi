@@ -175,7 +175,10 @@ a:visited {
 }
 .dark-section {
   background-color: #1c2026;
-  background-image: url(../images/elements/bgd-shape1.png);
+  background-image: url(../images/elements/bgd-shape1.png),
+    url(../images//elements//bgd-shape2.png);
+  background-position: left top, right bottom;
+
   background-repeat: no-repeat;
   color: #fff;
 
