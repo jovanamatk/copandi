@@ -204,17 +204,39 @@ a:visited {
 
 .dark-section {
   background-color: #1c2026;
+  background-image: url(../images/elements/bgd-shape1.png);
+  background-repeat: no-repeat;
 }
 
 .dark-section p {
-  color: #fff;
   font-size: 18px;
+  color: #fff;
+}
+
+.dark-section .tabs-container {
+  margin-top: 50px !important;
 }
 
 .dark-section .tabs-column {
   text-align: start;
-  color: #fff;
+  padding-left: 20%;
+  padding-top: 5%;
+  padding-bottom: 65%;
   background-color: #262b33;
+  color: #fff;
+}
+
+.dark-section .tabs-column .tab-pane {
+  padding: 10px;
+}
+
+.dark-section .tabs-column h1 {
+  padding-bottom: 8%;
+}
+
+.nav-pills .nav-link {
+  border-radius: 0.25rem;
+  padding: 15px 30px;
 }
 
 footer {

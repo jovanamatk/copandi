@@ -175,15 +175,33 @@ a:visited {
 }
 .dark-section {
   background-color: #1c2026;
+  background-image: url(../images/elements/bgd-shape1.png);
+  background-repeat: no-repeat;
   p {
-    color: #fff;
     font-size: 18px;
+    color: #fff;
+  }
+  .tabs-container {
+    margin-top: 50px !important;
   }
   .tabs-column {
     text-align: start;
-    color: #fff;
+    padding-left: 20%;
+    padding-top: 5%;
+    padding-bottom: 65%;
     background-color: #262b33;
+    color: #fff;
+    .tab-pane {
+      padding: 10px;
+    }
+    h1 {
+      padding-bottom: 8%;
+    }
   }
+}
+.nav-pills .nav-link {
+  border-radius: 0.25rem;
+  padding: 15px 30px;
 }
 footer {
   background-color: #262b33;
